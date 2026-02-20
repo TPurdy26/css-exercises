@@ -67,3 +67,29 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+/* Solution */
+.title-chunk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+
+}
+.main-chunk {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.modal {
+  display: flex;
+  padding: 15px 15px 15px 0;
+}
+.icon {
+  margin: 0 15px 0 15px;
+}
+.header {
+  font-weight: bold;
+}
+.buttons {
+  padding-top: 10px;
+}
